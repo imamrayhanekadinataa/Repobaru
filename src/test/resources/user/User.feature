@@ -18,23 +18,23 @@ Feature: User
       | same      | Rayhan87! | 406   | existed   |
 
 
-  #Scenario: POST - As a user I have to be able to generate token
-    #Given I set an endpoint for POST generate token
-    #When I request POST generate token
-    #Then I validate the status code is 200
-    #And validate the data detail after generate token
-    #And get token for other request
+  Scenario: POST - As a user I have to be able to generate token
+    Given I set an endpoint for POST generate token
+    When I request POST generate token
+    Then I validate the status code is 200
+    And validate the data detail after generate token
+    And get token for other request
 
-  #Scenario: GET - As a user I have to be able to get detail user
-    #Given I set an endpoint for GET detail user
-    #When I request GET detail user
-    #Then I validate the status code is 200
-    #And validate the data detail
+  Scenario: GET - As a user I have to be able to get detail user
+    Given I set an endpoint for GET detail user
+    When I request GET detail user
+    Then I validate the status code is 200
+    And validate the data detail
 
-  #Scenario: GET - As a user I have to authorized
-   #Given I set an endpoint for authorized
-    #When I request POST authorized
-    #Then I validate the status code is 200
-    #And validate the data detail for authorized
+  Scenario: GET - As a user I have to authorized
+   Given I set an endpoint for authorized
+    When I request POST authorized
+    Then I validate the status code is 200
+    And validate the data detail for authorized
 
 
